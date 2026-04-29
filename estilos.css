@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #ffdce8 0%, #f5dfef 100%);
+    background: linear-gradient(135deg, #ffdce8 0%, #f5dfef 100%); <!-- aqui cambie el color del fondo de la pagina-->
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -74,7 +74,7 @@ body:has(#back:target) .credential-card:first-child {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(145deg, #cc81c8 0%, #eba1c9 100%);
+    background: linear-gradient(145deg, #cc81c8 0%, #eba1c9 100%);  <!-- aqui cambie el colo de la credencial-->
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -156,7 +156,7 @@ body:has(#back:target) .credential-card:first-child {
 
 .info-row .label {
     font-weight: bold;
-    color: #000000;
+    color: #000000;   <!--aqui cambie el color de la letras-->
     font-size: 0.85rem;
     width: 35%;
 }
